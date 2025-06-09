@@ -77,6 +77,38 @@ vue-task-tracker/
 
 Feel free to fork and submit a pull request if you’d like to improve the app or add new features!
 
+⚠️ Challenges Faced 
+
+🔧 Vue 2 to Vue 3 Migration
+
+The initial template was based on Vue 2, which led to compatibility issues with Vue 3 packages and tooling.
+
+Refactoring the main.js setup and updating package dependencies to support Vue 3 resolved this.
+
+⚙️ Vite Configuration
+
+Switching from the Vue CLI to Vite required changes in scripts and module resolution.
+
+Some dependencies (e.g., Vue Router and Axios) needed proper integration with the new Vite-based setup.
+
+🧱 Missing Build Directory
+
+Running npm run serve initially failed due to the missing dist/ folder.
+
+This was fixed by first executing npm run build to generate the production-ready files.
+
+📦 Dependency Warnings
+
+Encountered deprecated packages during global CLI installations.
+
+Resolved by updating to Vue 3-compatible libraries and avoiding deprecated tooling like Vue CLI in favor of Vite.
+
+🌐 Port Accessibility
+
+After launching the dev server, accessing the app via localhost:5173 initially showed 404 errors due to incorrect routing or missing entry files.
+
+Fixed by ensuring the correct App.vue mounting and directory structure.
+
 
 
 
