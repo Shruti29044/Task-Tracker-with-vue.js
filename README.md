@@ -28,9 +28,8 @@ A simple task tracking application built with **Vue 3**, **Vite**, and **Axios**
 
 ## 📁 Project Setup
 
-### 1. Clone the repo
+Clone the repo
 
-```bash
 
 git clone https://github.com/yourusername/vue-task-tracker.git
 
@@ -77,6 +76,8 @@ vue-task-tracker/
 🤝 Contributing
 
 Feel free to fork and submit a pull request if you’d like to improve the app or add new features!
+
+
 
 
 
